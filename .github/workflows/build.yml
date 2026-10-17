@@ -1,4 +1,4 @@
-name: Build Release APK with Embedded FFmpeg
+name: Build Release APK 
 
 on:
   workflow_dispatch:
@@ -62,5 +62,5 @@ jobs:
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: DownKaze-Release-APK
+          name: pykivy-Release-APK
           path: bin/*.apk
