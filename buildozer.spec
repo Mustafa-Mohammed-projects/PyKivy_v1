@@ -14,7 +14,7 @@ orientation = portrait
 fullscreen = 0
 icon.filename = %(source.dir)s/data/icon.png
 presplash.filename = %(source.dir)s/data/presplash.png
-presplash.color = #0E1018
+#presplash.color = #0E1018
 
 android.permissions = INTERNET
 android.api = 33
@@ -22,6 +22,10 @@ android.minapi = 24
 android.archs = arm64-v8a
 android.accept_sdk_license = True
 
+android.keystore = 
+android.keystore_passwd = 
+android.keyalias = 
+android.keyalias_passwd = 
 [buildozer]
 log_level = 2
 warn_on_root = 1
